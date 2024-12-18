@@ -1,0 +1,25 @@
+[package]
+name = "idiomatic-rust-performance"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = "0.5"
+itertools = "0.13"
+indexmap = "2"
+
+[[bench]]
+name = "vecmap_cmp"
+harness = false
+
+[[bench]]
+name = "count_cmp"
+harness = false
+
+[[bench]]
+name = "listfmt_cmp"
+harness = false
+
+[[bench]]
+name = "mapinsert_cmp"
+harness = false
